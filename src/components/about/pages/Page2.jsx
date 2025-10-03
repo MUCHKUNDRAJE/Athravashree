@@ -9,7 +9,7 @@ function Page2() {
     <div className='h-screen w-full flex items-center justify-center '>
         <div className='h-screen w-1/2  flex items-center justify-center' >
              <div className='h-[70%] rounded-2xl w-[90%] bg-amber-300 overflow-hidden relative'>
-                      <img className='h-full w-full object-cover' src="https://media.licdn.com/dms/image/v2/C512DAQH9NItFfTaR5g/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1601402120064?e=1758949200&v=beta&t=27lRKVHfeYQZKx72qcyLHPHDEK2suTQsCSDtREu7u5g" alt="" />
+                      <img className='h-full w-full object-cover object-top' src="/client.jpg" alt="" />
                   <motion.div initial={{opacity:0}} whileInView={{opacity:1}}  transition={{delay:0.3}}  viewport={{amount:0.9}}  className='h-20 rounded-2xl p-3 shadow-2xl w-96 bg-white absolute bottom-2 left-2' >
                      <div    className='inter px-2 text-xl font-semibold text-[#8B276F]'>
                            Mr. Vinay Rajgire
