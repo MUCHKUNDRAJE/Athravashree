@@ -11,7 +11,7 @@ import { FacebookIcon, InstagramIcon, Phone } from "lucide-react";
 import Nav from "../components/Nav";
 import Landing_page from "../components/home/pages/Landing";
 import About_landing from "../components/home/pages/About-landing";
-import MemberLanding from "../components/home/pages/member-landing";
+import MemberLanding from "../components/home/pages/Member-landing";
 import Visionpage from "../components/home/pages/Vision-landing";
 import TurnkeyLanding from "../components/home/pages/Turnkey-landing";
 import ContactLanding from "../components/home/pages/contact-landing";
