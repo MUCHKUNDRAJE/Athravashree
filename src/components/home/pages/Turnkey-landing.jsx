@@ -27,7 +27,7 @@ function TurnkeyLanding({slideRef}) {
      
             </div>
             <div className="w-full  md:flex  md:h-1/2 flex justify-end  items-start">
-              <div className="h-[30rem] hidden md:block w-[70%] -mt-10 ml-10">
+              <div className="h-[30rem]  hidden md:block w-[70%] mt-10 ml-10">
                 <img className="h-full w-full object-cover" src="https://images.unsplash.com/photo-1590791057283-b4cda358303e?q=80&w=1100&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
               </div>
             </div>
