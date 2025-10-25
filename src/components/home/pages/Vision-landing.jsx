@@ -3,8 +3,10 @@ import {motion} from 'framer-motion'
 
 function Visionpage() {
   return (
-     <div className="h-screen w-full  flex   ">
-        <div className="h-full w-1/2 flex items-center justify-center">
+     <div className="min-h-screen py-40 w-full gap-10 flex md:flex-row  flex-col  ">
+       <h1 className="staatliches-regular block md:hidden text-5xl whitespace-nowrap md:text-7xl mb-10 bg-[#8B276F] text-white rounded px-10 py-2">Vision and  Mission</h1>
+       
+        <div className="h-full md:w-1/2 flex items-center justify-center">
           <motion.div
             initial={{ borderRadius: "1rem", scale: 1.3 }} // Start as circle (rounded-full)
             whileInView={{ borderRadius: "50rem", scale: 1.2 }} // Animate to rounded-2xl on scroll
@@ -15,7 +17,7 @@ function Visionpage() {
               damping: 20,
               duration: 2,
             }}
-            className="h-96 w-96 bg-red-100 overflow-hidden"
+            className=" h-50 w-50 md:h-96 md:w-96 bg-red-100 overflow-hidden"
           >
             <img
               className="h-full w-full object-cover"
@@ -26,8 +28,8 @@ function Visionpage() {
 
         </div>
 
-        <div className=" h-full w-1/2 flex items-center justify-center  flex-col  ">
-          <h1 className="staatliches-regular text-7xl mb-10 bg-[#8B276F] text-white rounded px-10 py-2">Vision and  Mission</h1>
+        <div className=" h-full md:w-1/2 flex items-center justify-center  flex-col  ">
+          <h1 className="staatliches-regular hidden md:block text-7xl mb-10 bg-[#8B276F] text-white rounded px-10 py-2">Vision and  Mission</h1>
           <h1 className="staatliches-regular text-2xl text-[#8B276F] ">Vision</h1>
           <p className="w-[80%] inter text-center ">We aim for total customer satisfaction and
             enhanced shareholder value through innovative

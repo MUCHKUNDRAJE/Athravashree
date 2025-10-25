@@ -99,7 +99,7 @@ function Home() {
   return (
     <>
       {/* Navbar */}
-    
+
 
 
 
@@ -117,7 +117,7 @@ function Home() {
         <MemberLanding />
 
 
-       <TurnkeyLanding slideRef={slideRef} />
+        <TurnkeyLanding slideRef={slideRef} />
 
         <div className="min-h-[100vh]  w-full  flex  items-center justify-center  flex-col   py-40  ">
 
@@ -156,7 +156,7 @@ function Home() {
 
 
 
-        <div className="min-h-[100vh] w-full  -mt-12 py-2   flex-col   gap-10  ">
+        <div className=" md:min-h-[100vh] w-full  -mt-12 py-2   flex-col   gap-10  ">
 
           <div className="h-96 w-full ">
             <div className="w-full h-24   flex items-center justify-center">
@@ -192,11 +192,11 @@ function Home() {
             </Marquee>
           </div>
 
-          <h1 className="staatliches-regular bg-[#8B276F]  mb-10 text-4xl px-6 py-1 text-center z-40  text-white "> Project Quotation  </h1>
+          <h1 className="staatliches-regular bg-[#8B276F] hidden    mb-10 text-4xl px-6 py-1 text-center z-40  text-white "> Project Quotation  </h1>
 
-          <div className="h-96 w-[100%]  flex items-center justify-center opacity-90">
+          <div className="h-96 w-[100%]  flex-col hidden  md:flex items-center justify-center opacity-90">
 
-            <div className="h-full w-[90%] rounded-2xl flex overflow-hidden  " >
+            <div className="h-full w-[90%] rounded-2xl flex   overflow-hidden  " >
               <div className="h-full relative bg-[url(https://images.timesproperty.com/blog/1737/Picture1.jpg)] bg- w-[25%] flex items-center gap-2 flex-col justify-center">
                 <div className="h-full w-full bg-neutral-700 opacity-30 z-10 absolute top-0 left-0">
 
@@ -207,6 +207,7 @@ function Home() {
                 <h1 className="gilroy font-bold text-2xl text-white p-2  z-20  px-10 rounded-2xl bg-amber-500">Basic</h1>
                 <h1 className="inter font-semibold text-white  z-20 ">1650/sq.ft</h1>
               </div>
+
               <div className="h-full relative bg-[url(https://qarpentri.com/cdn/shop/articles/budget-interior-design-ideas_2000x.jpg?v=1705672560)] w-[25%] flex items-center gap-2 flex-col justify-center">
                 <div className="h-full w-full bg-neutral-700 opacity-30 z-10 absolute top-0 left-0">
 
@@ -243,20 +244,20 @@ function Home() {
 
         </div>
 
-        <div className="min-h-screen w-full flex items-center relative justify-center mt-20 ">
-          <div className="h-[70vh] w-[90vh] overflow-hidden rounded-4xl relative  bg-red-400">
+        <div className="min-h-screen w-full flex-col md:flex-row flex items-center relative justify-center mt-20 ">
+          <div className="md:h-[70vh] w-96 h-96 mb-2  md:w-[90vh] overflow-hidden rounded-4xl relative  bg-red-400">
             <img className="h-full w-full object-cover overflow-hidden" src="https://uploads-ssl.webflow.com/5dd58b148c402e5126209d07/5e44e26a598c278f565bfe0f_Consultancy.jpg" alt="" />
             <div className="bg-black h-full w-full absolute opacity-30 top-0 "></div>
           </div>
-          <div className="bg-black h-80 w-80 rounded-4xl z-20  absolute  top-50 overflow-hidden ">
+          <div className="bg-black hidden md:block h-80 w-80 rounded-4xl z-20  absolute  top-50 overflow-hidden ">
             <img className="w-full h-full object-cover" src="https://cdn.prod.website-files.com/627cdcca8bc0d22df9b2672f/64afb7b9abb62437f37a3d09_How%20to%20Start%20a%20Recruitment%20Consultancy.webp" alt="" />
           </div>
-          <div className="bg-white h-80 w-80 scale-105 z-10   rounded-4xl  absolute  top-50 overflow-hidden ">
+          <div className="bg-white hidden md:block h-80 w-80 scale-105 z-10   rounded-4xl  absolute  top-50 overflow-hidden ">
           </div>
-          <div className="h-[80vh] w-[90vh] ">
+          <div className="md:h-[80vh] md:w-[90vh] ">
             <h1 className="staatliches-regular bg-[#8B276F]  rounded-l-2xl  mb-10 text-4xl px-6 py-1 text-right z-40  text-white "> Planning & Consultation</h1>
             <p className=" w-full text-lg font-normal flex items-end justify-end  ">
-              <div className=" inter w-96 font-semibold text-zinc-600 ">
+              <div className=" inter px-3 md:px-0 md:mb-0 mb-10 w-96 font-semibold text-zinc-600 ">
                 Our agency provides expert Legal Consultancy, offering clients reliable <span className="bg-[#8B276F] text-white px-4 py-[0.9px] rounded-lg  font-bold">guidance</span>  and   <span className="bg-[#8B276F] text-white px-4 py-[0.9px] rounded-lg  font-bold">strategic</span>  solutions tailored to their needs. With a strong focus on planning and consultation, we ensure every step is handled with professionalism and transparency. From understanding your requirements to designing the right approach, our process emphasizes clarity, efficiency, and trust. Through this structured consultation, we aim to simplify complexities, safeguard your interests, and deliver outcomes that truly add value.
 
               </div>
@@ -267,14 +268,14 @@ function Home() {
           </div>
         </div>
 
-     {/* <div className="h-96 opacity-90 w-full  bg-[url(https://i.pinimg.com/736x/a9/51/f2/a951f29e0158851d8486c0ab2348fe8d.jpg)] ">
+        {/* <div className="h-96 opacity-90 w-full  bg-[url(https://i.pinimg.com/736x/a9/51/f2/a951f29e0158851d8486c0ab2348fe8d.jpg)] ">
          <div className="h-full bg-red-300 flex items-center justify-center w-[40%]">
                <img src="/logo.png" alt="" />
 
          </div>
      </div> */}
 
-     <Footer/>
+        <Footer />
       </main>
 
 

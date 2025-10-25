@@ -2,14 +2,14 @@ import React from 'react'
 
 function TurnkeyLanding({slideRef}) {
   return (
-      <div className="h-screen w-full flex">
-          <div className=" h-full w-[60%]" >
-            <div className="w-full h-1/2 pt-10  ">
-              <h1 className="gilroy text-4xl font-bold bg-[#8B276F]  rounded-r text-white px-10 py-2 ">
+      <div className="min-h-screen w-full flex ">
+          <div className=" h-full w-96 md:w-[60%]" >
+            <div className="w-full md:h-1/2 pt-10  ">
+              <h1 className="gilroy  text-4xl font-bold bg-[#8B276F]  rounded-r text-white px-10 py-2 ">
                 Turnkey Construction Solutions
               </h1>
 
-              <p className="  px-30 py-10 w-full inter text-md font-semibold text-zinc-500">
+              <p className=" px-4 md:px-30 py-10 w-full inter text-md font-semibold text-zinc-500">
                 Complete Construction With Material Solutions
                 Our Idea Transforms Your Dream Into Reality
 
@@ -22,13 +22,17 @@ function TurnkeyLanding({slideRef}) {
 
               </p>
             </div>
-            <div className="w-full  h-1/2 flex justify-end  items-start">
-              <div className="h-[30rem] w-[70%] -mt-10 ml-10">
+            <div className='h-96 w-96 px-2 rounded-2xl overflow-hidden' >
+<img className="h-full w-full object-cover rounded-2xl " src="https://images.unsplash.com/photo-1590791057283-b4cda358303e?q=80&w=1100&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+     
+            </div>
+            <div className="w-full  md:flex  md:h-1/2 flex justify-end  items-start">
+              <div className="h-[30rem] hidden md:block w-[70%] -mt-10 ml-10">
                 <img className="h-full w-full object-cover" src="https://images.unsplash.com/photo-1590791057283-b4cda358303e?q=80&w=1100&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
               </div>
             </div>
           </div>
-          <div className=" h-full w-1/2  flex  justify-start   items-center relative" >
+          <div className=" h-full w-1/2 hidden md:flex  justify-start  items-center relative" >
             <div ref={slideRef} className="h-[37rem] opacity-100 absolute w-[27rem] bg-white mt-10 ml-10">
 
             </div>

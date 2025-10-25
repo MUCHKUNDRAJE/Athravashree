@@ -5,7 +5,7 @@ function MemberLanding() {
   return (
      <div className="min-h-[60vh] w-full  flex items-cenetr justify-start  flex-col  gap-10  ">
                   <h1 className="staatliches-regular  text-5xl px-6 py-1 text-center z-40 bg-[#8B276F] text-white"> Community Input Member and Associate </h1>
-                  <Marquee speed={100}  className="py-10 -mb-2" >
+                  <Marquee speed={100}  className="py-10 -mb-2 md:scale-100 scale-80" >
                     <div className="h-36 w-60  flex items-center justify-center bg-gray-100 p-2 rounded-2xl">
                       <img className="rounded"  src="https://5.imimg.com/data5/GO/FQ/BK/IOS-75036027/product-jpeg.png" alt="" />
                     </div>
@@ -45,7 +45,7 @@ function MemberLanding() {
                     </div>
                      </ Marquee>
 
-                    < Marquee className="py-3" speed={100} direction="right">
+                    < Marquee className="py-3 md:scale-100 scale-80 md:-mt-10" speed={100} direction="right" >
                        <div className="h-36 w-60  flex items-center justify-center bg-gray-100 p-2 ml-10 rounded-2xl">
                       <img className="h-full w-full object-cover rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXu8DBV8zaw2FaaDcOgr2A317WqRsArG4X_g&s" alt="" />
                     </div>
