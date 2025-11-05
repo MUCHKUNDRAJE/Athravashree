@@ -104,7 +104,7 @@ function Home() {
 
 
       {/* Hero */}
-      <main className="w-full min-h-auto">
+      <main className="w-full min-h-auto overflow-hidden">
 
 
         <Landing_page logoref={logoref} titleref={titleref} />

@@ -3,7 +3,7 @@ import {motion} from "framer-motion"
 
 function About_landing() {
   return (
-  <div className="gilroy w-96 relative text-center flex items-center justify-center   flex-col text-4xl text-[#8B276F] font-bold md:h-screen  md:w-full p-2  md:p-19">
+  <div className="gilroy w-full relative text-center flex items-center justify-center   flex-col text-4xl text-[#8B276F] font-bold md:h-screen  md:w-full p-2  md:p-19">
 
         {/* Background cards animation */}
         <motion.div
