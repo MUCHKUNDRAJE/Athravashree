@@ -76,14 +76,14 @@ function Page3() {
   };
 
   return (
-    <div className='min-h-screen w-full p-20'>
+    <div className='min-h-screen w-full px-10 py-20  md:p-20'>
       <h1 className='text-center mb-15 gilroy font-bold text-4xl text-[#8B276F]'>
         Our Specialities
       </h1>
 
       {/* Parent motion.div with variants */}
       <motion.div
-        className='h-full w-full flex flex-wrap items-center justify-center gap-7'
+        className='h-full hidden w-full md:flex flex-wrap items-center justify-center gap-7'
         variants={containerVariants}
         initial="hidden"
         whileInView="show"
@@ -107,6 +107,33 @@ function Page3() {
           </motion.div>
         ))}
       </motion.div>
+
+
+         <div
+        className='h-full md:hidden w-full flex flex-wrap items-center justify-center gap-7'
+        variants={containerVariants}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true, amount: 0.3 }}
+      >
+        {Speciality.map((val, i) => (
+          <div
+            key={i}
+            variants={cardVariants}
+            className='group h-60 w-96 rounded-2xl bg-white/30 hover:bg-[#8B276F] backdrop-blur-3xl border-zinc-300 border-[2px] p-5 flex flex-col transition-all duration-300 items-start'
+          >
+            <div className='h-10 w-10 bg-[#8B276F] flex items-center justify-center text-white group-hover:bg-white group-hover:text-[#8B276F] group-hover:scale-110 transition-transform rounded-full'>
+              {icon[i]}
+            </div>
+            <h1 className='font-bold inter mt-5 text-3xl group-hover:text-white'>
+              {val.heading}
+            </h1>
+            <p className='inter mt-3 text-start group-hover:text-white'>
+              {val.para}
+            </p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

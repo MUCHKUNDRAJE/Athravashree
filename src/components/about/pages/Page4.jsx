@@ -16,7 +16,7 @@ function Page4() {
   };
 
   return (
-    <div className="h-screen w-full flex items-center justify-center bg-gray-100">
+    <div className="h-screen md:block hidden w-full md:flex items-center justify-center bg-gray-100">
       <div className="h-[90vh] w-[90%] z-20 bg-[#7a1e60] opacity-95 flex items-center justify-center flex-col gap-10">
         <h1 className="gilroy text-6xl font-semibold text-white">
           Business Card
