@@ -49,7 +49,7 @@ function About_landing() {
         </motion.div>
 
         {/* Logo */}
-        <div className="h-20 w-20 z-30 mb-10 rounded-xl">
+        <div className="h-20 w-20   z-30 mb-10 rounded-xl">
           <img src="./logo.png" alt="" />
         </div>
 
@@ -59,6 +59,7 @@ function About_landing() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.7 }}
           viewport={{ once: true }}
+          className='text-3xl md:text-4xl'
         >
           {["About Athravashree Infraventures Pvt Ltd"].map((val, i) => (
             <span className="about-text inline-block" key={i}>
