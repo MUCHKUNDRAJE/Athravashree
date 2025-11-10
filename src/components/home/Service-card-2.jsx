@@ -10,7 +10,7 @@ function Servicecard2({Services}) {
         </div>
         <div className='w-full p-2'>
         <div className='bg-[#8B276F] w-fit px-2 text-white text-xs inter rounded-2xl '>
-          Arthavshree    
+          Arthavshree Service
         </div>
         <h1 className='inter text-lg  font-medium'>
          {Services}

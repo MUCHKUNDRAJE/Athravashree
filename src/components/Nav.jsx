@@ -58,7 +58,7 @@ function Nav() {
           isMenuOpen ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
         }`}
       >
-        <div className="flex flex-col inter items-center mt-10 z-50 justify-center gap-8 py-20 text-[#2C3C78] font-bold text-lg">
+        <div className="flex flex-col inter items-center mt-10 z-[100] justify-center gap-8 py-20 text-[#2C3C78] font-bold text-lg">
           <Link to="/" onClick={closeMenu}>Home</Link>
           <Link to="/about" onClick={closeMenu}>About</Link>
           <Link to="/project" onClick={closeMenu}>Project</Link>

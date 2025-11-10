@@ -53,7 +53,7 @@ function Page1() {
 
   return (
     <div className='min-h-screen w-full pt-20 '>
-        <div className=' sticky top-13 bg-white z-[99]'>
+        <div className=' sticky top-15 bg-white z-50'>
          <div className=' bg-[#8B276F] text-white  staatliches-regular text-5xl h-15 flex items-center justify-center w-full'>
                 {Name}
             </div>    
