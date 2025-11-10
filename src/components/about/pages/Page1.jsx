@@ -4,7 +4,7 @@ import { ArrowBigRightDashIcon } from 'lucide-react';
 function Page1({logoref, titleref}) {
   return (
    <div  className='inter md:min-h-screen flex  overflow-hidden  md:flex md:flex-row md:pt-20 w-full '>
-        <div className=' -mt-20 md:mt-0 font-bold  md:p-20 h-[80vh] flex items-start justify-center flex-col w-full  md:w-1/2 text-[#8B276F] '>
+        <div className='  md:mt-0 font-bold  md:p-20 h-[80vh] flex items-start justify-center flex-col w-full  md:w-1/2 text-[#8B276F] '>
                 <h1 className=' gilroy px-10 font-bold text-5xl md:text-8xl   text-[#8B276F] ' >
               
               About us      
