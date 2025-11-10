@@ -7,7 +7,7 @@ function Services() {
 <>
     <main>
         
-<Page1/>
+      <Page1/>
 
     </main>
  
